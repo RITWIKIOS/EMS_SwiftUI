@@ -9,9 +9,21 @@ import SwiftUI
 
 @main
 struct SpringCTAssignmentApp: App {
+    @State private var showSplashScreen = true
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            if showSplashScreen {
+                SplashScreenView()
+                    .onAppear {
+                        DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+                            withAnimation {
+                                showSplashScreen = false
+                            }
+                        }
+                    }
+            } else {
+                MainView()
+            }
         }
     }
 }

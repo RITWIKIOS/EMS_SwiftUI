@@ -14,6 +14,17 @@
 		9D5B11352C2558CE00F30E3C /* SpringCTAssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5B11342C2558CE00F30E3C /* SpringCTAssignmentTests.swift */; };
 		9D5B113F2C2558CE00F30E3C /* SpringCTAssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5B113E2C2558CE00F30E3C /* SpringCTAssignmentUITests.swift */; };
 		9D5B11412C2558CE00F30E3C /* SpringCTAssignmentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5B11402C2558CE00F30E3C /* SpringCTAssignmentUITestsLaunchTests.swift */; };
+		9D5B11512C2559F900F30E3C /* EmployeeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5B11502C2559F900F30E3C /* EmployeeModel.swift */; };
+		9D5B11532C255BAC00F30E3C /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5B11522C255BAC00F30E3C /* HomeScreen.swift */; };
+		9D5B11552C255BDD00F30E3C /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5B11542C255BDD00F30E3C /* HomeViewModel.swift */; };
+		9D5B11572C255DAF00F30E3C /* AddEmployeeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5B11562C255DAF00F30E3C /* AddEmployeeView.swift */; };
+		9D5B11592C255DF500F30E3C /* EmployeeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5B11582C255DF500F30E3C /* EmployeeListView.swift */; };
+		9D5B115B2C255F6700F30E3C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5B115A2C255F6700F30E3C /* MainView.swift */; };
+		9D5B115D2C2564A400F30E3C /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5B115C2C2564A400F30E3C /* UserProfile.swift */; };
+		9D5B115F2C258C1300F30E3C /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5B115E2C258C1300F30E3C /* LoginView.swift */; };
+		9D5B11622C258FE300F30E3C /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5B11612C258FE300F30E3C /* NetworkManager.swift */; };
+		9D5B11642C25922900F30E3C /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5B11632C25922900F30E3C /* LoginModel.swift */; };
+		9D5B11672C25C9B100F30E3C /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5B11662C25C9B100F30E3C /* SplashScreenView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +55,18 @@
 		9D5B113A2C2558CE00F30E3C /* SpringCTAssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpringCTAssignmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D5B113E2C2558CE00F30E3C /* SpringCTAssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringCTAssignmentUITests.swift; sourceTree = "<group>"; };
 		9D5B11402C2558CE00F30E3C /* SpringCTAssignmentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringCTAssignmentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9D5B11502C2559F900F30E3C /* EmployeeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeModel.swift; sourceTree = "<group>"; };
+		9D5B11522C255BAC00F30E3C /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		9D5B11542C255BDD00F30E3C /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		9D5B11562C255DAF00F30E3C /* AddEmployeeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEmployeeView.swift; sourceTree = "<group>"; };
+		9D5B11582C255DF500F30E3C /* EmployeeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeListView.swift; sourceTree = "<group>"; };
+		9D5B115A2C255F6700F30E3C /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		9D5B115C2C2564A400F30E3C /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		9D5B115E2C258C1300F30E3C /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		9D5B11612C258FE300F30E3C /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		9D5B11632C25922900F30E3C /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		9D5B11652C25B73200F30E3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9D5B11662C25C9B100F30E3C /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,7 +117,12 @@
 		9D5B11222C2558CB00F30E3C /* SpringCTAssignment */ = {
 			isa = PBXGroup;
 			children = (
+				9D5B11652C25B73200F30E3C /* Info.plist */,
 				9D5B11232C2558CB00F30E3C /* SpringCTAssignmentApp.swift */,
+				9D5B11602C258FD500F30E3C /* NetworkManager */,
+				9D5B114F2C2559C900F30E3C /* View */,
+				9D5B114E2C2559C000F30E3C /* ViewModel */,
+				9D5B114D2C2559B100F30E3C /* Model */,
 				9D5B11252C2558CB00F30E3C /* ContentView.swift */,
 				9D5B11272C2558CD00F30E3C /* Assets.xcassets */,
 				9D5B11292C2558CD00F30E3C /* Preview Content */,
@@ -125,6 +153,45 @@
 				9D5B11402C2558CE00F30E3C /* SpringCTAssignmentUITestsLaunchTests.swift */,
 			);
 			path = SpringCTAssignmentUITests;
+			sourceTree = "<group>";
+		};
+		9D5B114D2C2559B100F30E3C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9D5B11502C2559F900F30E3C /* EmployeeModel.swift */,
+				9D5B11632C25922900F30E3C /* LoginModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9D5B114E2C2559C000F30E3C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9D5B11542C255BDD00F30E3C /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9D5B114F2C2559C900F30E3C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9D5B11662C25C9B100F30E3C /* SplashScreenView.swift */,
+				9D5B11522C255BAC00F30E3C /* HomeScreen.swift */,
+				9D5B115E2C258C1300F30E3C /* LoginView.swift */,
+				9D5B115C2C2564A400F30E3C /* UserProfile.swift */,
+				9D5B115A2C255F6700F30E3C /* MainView.swift */,
+				9D5B11562C255DAF00F30E3C /* AddEmployeeView.swift */,
+				9D5B11582C255DF500F30E3C /* EmployeeListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9D5B11602C258FD500F30E3C /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				9D5B11612C258FE300F30E3C /* NetworkManager.swift */,
+			);
+			path = NetworkManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +324,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D5B11532C255BAC00F30E3C /* HomeScreen.swift in Sources */,
+				9D5B11672C25C9B100F30E3C /* SplashScreenView.swift in Sources */,
+				9D5B11642C25922900F30E3C /* LoginModel.swift in Sources */,
+				9D5B115B2C255F6700F30E3C /* MainView.swift in Sources */,
+				9D5B11592C255DF500F30E3C /* EmployeeListView.swift in Sources */,
+				9D5B11512C2559F900F30E3C /* EmployeeModel.swift in Sources */,
+				9D5B11622C258FE300F30E3C /* NetworkManager.swift in Sources */,
+				9D5B11572C255DAF00F30E3C /* AddEmployeeView.swift in Sources */,
 				9D5B11262C2558CB00F30E3C /* ContentView.swift in Sources */,
+				9D5B11552C255BDD00F30E3C /* HomeViewModel.swift in Sources */,
 				9D5B11242C2558CB00F30E3C /* SpringCTAssignmentApp.swift in Sources */,
+				9D5B115F2C258C1300F30E3C /* LoginView.swift in Sources */,
+				9D5B115D2C2564A400F30E3C /* UserProfile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +502,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SpringCTAssignment/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SpringCTAssignment/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -452,6 +531,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SpringCTAssignment/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SpringCTAssignment/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

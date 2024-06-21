@@ -6,3 +6,21 @@
 //
 
 import Foundation
+import SwiftUI
+
+
+struct UserProfile: View {
+    @EnvironmentObject var store: AppStore
+    
+    var body: some View {
+        VStack{
+            Text("Email: " + store.username)
+        }
+       
+    }
+}
+
+#Preview {
+    ContentView()
+}
+
